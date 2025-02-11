@@ -1,0 +1,81 @@
+Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
+Detecting compiler hash for triplet x86-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x86/cl.exe
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * brotli:x86-windows@1.1.0#1 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\4e5b5ae1ad26c80535c893cc0307121f0398549e
+  * bzip2[core,tool]:x86-windows@1.0.8#6 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\2d029da682847c5ebdc54e4dbea001331a02207e
+  * egl-registry:x86-windows@2024-01-25 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\d883db43133dd223c4ffdbef4193943f6784d43a
+  * freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2
+  * libflac[core,stack-protector]:x86-windows@1.4.3#2 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\a92a3397dfb70e6eec94fab7b3665a1288d9f7bd
+  * libogg:x86-windows@1.3.5#1 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\98e27727c32704393494d32615c25b7b16eb3067
+  * libpng:x86-windows@1.6.45 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\081166e70f56cd851b212f93a9ee5531d58fb9b9
+  * libvorbis:x86-windows@1.3.7#3 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\23d11198ff2df7a3af54f1c4645ef71a141f2a85
+  * openal-soft:x86-windows@1.24.2 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\368c76c235972804893059e75da4584486a8a0d0
+  * opengl:x86-windows@2022-12-04#3 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\c3ae71738f88449ebcd781cef60d9a253fa091d4
+  * opengl-registry:x86-windows@2024-02-10#1 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\22f7aa58ee78c9f0db904b6251e9265f2be26f9d
+    sfml[audio,core,graphics,network,window]:x86-windows@2.6.2 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\16580cf264c6a8933fb657e425a5866568d4c394
+  * stb:x86-windows@2024-07-29#1 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\c362152d1d02973e7b1ce777960f8a6876656560
+  * vcpkg-cmake:x64-windows@2024-04-23 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  * zlib:x86-windows@1.3.1 -- C:\Users\e.mauduy\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9
+Additional packages (*) will be modified to complete this operation.
+Restored 16 package(s) from C:\Users\e.mauduy\AppData\Local\vcpkg\archives in 26 s. Use --debug to see more details.
+Installing 1/16 egl-registry:x86-windows@2024-01-25...
+Elapsed time to handle egl-registry:x86-windows: 743 ms
+egl-registry:x86-windows package ABI: 834b77c033a9b2b7caf864312adf5266e5f50e08067243ffd1bff229eb87e1be
+Installing 2/16 opengl-registry:x86-windows@2024-02-10#1...
+Elapsed time to handle opengl-registry:x86-windows: 2 s
+opengl-registry:x86-windows package ABI: f57503bd7c03f21cdf834d60a9ef91793a5cc387e625b3b4e27c17d1e88043a0
+Installing 3/16 opengl:x86-windows@2022-12-04#3...
+Elapsed time to handle opengl:x86-windows: 837 ms
+opengl:x86-windows package ABI: 0b87bdfe29b5f4556ee9786ff6d7b799b23927632423857f57bec6d5c9530503
+Installing 4/16 stb:x86-windows@2024-07-29#1...
+Elapsed time to handle stb:x86-windows: 1.1 s
+stb:x86-windows package ABI: 025ec1af7e2617315c7fe688cdd474021b03513c1ab506a10b62185ba6675937
+Installing 5/16 vcpkg-cmake:x64-windows@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-windows: 477 ms
+vcpkg-cmake:x64-windows package ABI: e551b880874b8390dee02b17fd0d52912ae51c6000c318971979f0b59e373337
+Installing 6/16 zlib:x86-windows@1.3.1...
+Elapsed time to handle zlib:x86-windows: 478 ms
+zlib:x86-windows package ABI: 8f7d451e9e8689a45fa874a3848b4334c23c2cb984d7aa33d8fce98992f414d7
+Installing 7/16 vcpkg-cmake-config:x64-windows@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 425 ms
+vcpkg-cmake-config:x64-windows package ABI: 17a76663bb4233913011b33b7cea2daabf12603c1a55bed05a7716125af1e419
+Installing 8/16 libpng:x86-windows@1.6.45...
+Elapsed time to handle libpng:x86-windows: 1.2 s
+libpng:x86-windows package ABI: ad230cf9c12e7920591654b910bdaa1c707ed6abef997093f8f523f15bb8a3d0
+Installing 9/16 bzip2[core,tool]:x86-windows@1.0.8#6...
+Elapsed time to handle bzip2:x86-windows: 737 ms
+bzip2:x86-windows package ABI: ff74352f86a5610f3c37bd796bfbec390901f7c9cedb1fc07c02d5af50c3c4f4
+Installing 10/16 brotli:x86-windows@1.1.0#1...
+Elapsed time to handle brotli:x86-windows: 1.4 s
+brotli:x86-windows package ABI: 2c5c8b891a591f959b71d948c1f0ceb0350330165a5b6f106b0ed25f07e99b10
+Installing 11/16 freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3...
+Elapsed time to handle freetype:x86-windows: 3 s
+freetype:x86-windows package ABI: 276e4dbd56b1a919027f5ace528f4be25e8faad980ac911732f31a59563c7964
+Installing 12/16 openal-soft:x86-windows@1.24.2...
+Elapsed time to handle openal-soft:x86-windows: 956 ms
+openal-soft:x86-windows package ABI: c223027bde8bee7c59fe8f489625a84660cc9104ef9306538243f0da27881488
+Installing 13/16 libogg:x86-windows@1.3.5#1...
+Elapsed time to handle libogg:x86-windows: 699 ms
+libogg:x86-windows package ABI: 6f397f9bf9e2afbeab41b7701d8be47d5e9d2334177422e4916d95beeddf20a3
+Installing 14/16 libvorbis:x86-windows@1.3.7#3...
+Elapsed time to handle libvorbis:x86-windows: 1.4 s
+libvorbis:x86-windows package ABI: 19508dde060c8d175271f7e595ed51db5b3363162d1dfba58825639bc9125230
+Installing 15/16 libflac[core,stack-protector]:x86-windows@1.4.3#2...
+Elapsed time to handle libflac:x86-windows: 1.6 s
+libflac:x86-windows package ABI: ad6a85c088ad00cae1a2b830d945188b1df423e0eae1c3947ad84756d717aa8d
+Installing 16/16 sfml[audio,core,graphics,network,window]:x86-windows@2.6.2...
+Elapsed time to handle sfml:x86-windows: 3.9 s
+sfml:x86-windows package ABI: 75f9c82235e936341f9970f975d3aec064a397aa61b0af79705c120802d77a76
+Total install time: 21 s
+The package sfml provides CMake targets:
+
+    find_package(SFML COMPONENTS system window graphics audio CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE sfml-system sfml-network sfml-graphics sfml-window sfml-audio)
+
+    # If you want SFML to provide an implementation of main():
+    target_link_libraries(main PRIVATE sfml-main)
+
